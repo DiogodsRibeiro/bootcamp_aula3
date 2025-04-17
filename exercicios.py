@@ -28,22 +28,36 @@
 # como `log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}`, 
 # escreva um programa que imprima a mensagem se a severidade for 'ERROR'.
 
-history_log = [
-    {'timestamp': '2021-06-23 10:00:00', 'level': 'INFO', 'message': 'Conexão bem-sucedida'},
-    {'timestamp': '2021-06-23 10:01:00', 'level': 'ERROR', 'message': 'Falha na conexão'},
-    {'timestamp': '2021-06-23 10:02:00', 'level': 'WARNING', 'message': 'Latência alta'},
-    {'timestamp': '2021-06-23 10:03:00', 'level': 'ERROR', 'message': 'Timeout na requisição'}
-]
+# history_log = [
+#     {'timestamp': '2021-06-23 10:00:00', 'level': 'INFO', 'message': 'Conexão bem-sucedida'},
+#     {'timestamp': '2021-06-23 10:01:00', 'level': 'ERROR', 'message': 'Falha na conexão'},
+#     {'timestamp': '2021-06-23 10:02:00', 'level': 'WARNING', 'message': 'Latência alta'},
+#     {'timestamp': '2021-06-23 10:03:00', 'level': 'ERROR', 'message': 'Timeout na requisição'}
+# ]
 
-for log in history_log:
-    if log['level'] == 'ERROR':
-        print(log['message'])
+# for log in history_log:
+#     if log['level'] == 'ERROR':
+#         print(log['message'])
 
 ### Exercício 4: Validação de Dados de Entrada
 # Antes de processar os dados de usuários em um sistema de recomendação, 
 # você precisa garantir que cada usuário tenha idade entre 18 e 65 anos e tenha 
 # fornecido um email válido. Escreva um programa que valide essas condições 
 # e imprima "Dados de usuário válidos" ou o erro específico encontrado.
+
+# user_age = int(input('Digite a sua idade: '))
+
+# user_email =  input('Digite o seu email: ')
+
+# email_valido = 'linux123@gmail.com'
+
+# if user_age > 65 or user_age < 18 or user_email != email_valido:
+#     print('Desculpe, mas a sua idade ou email nao e permitida pelo sistema.\n')
+#     print('Tente novamente')  
+# else:
+#     print('Idade e email valido.')
+
+               
 
 ### Exercício 5: Detecção de Anomalias em Dados de Transações
 # Você está trabalhando em um sistema de detecção de fraude e precisa identificar 

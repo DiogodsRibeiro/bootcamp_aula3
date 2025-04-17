@@ -1,4 +1,6 @@
-lista_alunos = ["Diogo", "Rafael", "Victor"]
+import time
 
-for aluno in lista_alunos:
-    print(aluno)
+condicao = True
+
+while condicao:
+    
