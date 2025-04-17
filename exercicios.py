@@ -43,6 +43,23 @@
 ### Exercício 6. Contagem de Palavras em Textos
 # Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
 
+texto = "Hoje e nossa segunda aula do bootcamp , bootcamp de python"
+
+palavras = texto.split(" ")
+
+print(palavras)
+
+contagem_de_palavras = {}
+
+for palavra in palavras:
+    if palavra in contagem_de_palavras:
+        contagem_de_palavras[palavra] = + 1
+    else:
+        contagem_de_palavras[palavra] = 1 
+
+print(contagem_de_palavras)
+
+
 ### Exercício 7. Normalização de Dados
 # Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
 
