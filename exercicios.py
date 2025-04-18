@@ -110,6 +110,25 @@
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
 
+# palavra_chave = "Sair"
+# palavra_user = input('Digite a palavra certa para sair do loop: ')
+# tentativas = 0  
+
+# while palavra_user.lower() != palavra_chave.lower():
+#     tentativas += 1
+#     print('Palavra errada, continue tentando até sair do loop.')
+
+#     # A cada 5 tentativas erradas, damos uma dica
+#     if tentativas % 5 == 0:
+#         # Mostra uma letra da palavra chave correspondente ao número de dicas dadas
+#         letras_mostradas = tentativas // 5
+#         dica = palavra_chave[:letras_mostradas]
+#         print(f"Dica: A palavra começa com: {dica}")
+
+#     palavra_user = input('Digite a palavra certa para sair do loop: ')
+
+# print('Você acertou. Parabéns!')  
+
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
 
