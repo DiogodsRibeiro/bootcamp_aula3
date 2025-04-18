@@ -1,6 +1,6 @@
-import time
+# import time
 
-condicao = True
+# condicao = True
 
-while condicao:
+# while condicao:
     

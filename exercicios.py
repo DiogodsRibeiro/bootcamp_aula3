@@ -138,25 +138,25 @@
 ### Exercício 14. Tentativas de Conexão
 # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
 
-Tentativas_usuarios = 1
-Tentativas_maximas = 5
+# Tentativas_usuarios = 1
+# Tentativas_maximas = 5
 
-Key = 'admin'
+# Key = 'admin'
 
-chance_user = input('Digite o nome do usuario para entrar: ')
+# chance_user = input('Digite o nome do usuario para entrar: ')
 
-while Tentativas_usuarios < Tentativas_maximas:
-    print(f'Tentativa {Tentativas_usuarios} de {Tentativas_maximas}')
-    dica = Key[:Tentativas_usuarios]
-    print(f'Segue a dica do login: {dica}')
-    chance_user = input('Digite o nome do usuario para entrar: ')
-    if chance_user == Key:
-        print('Conexao bem sucedida')
-        break
-    Tentativas_usuarios += 1
+# while Tentativas_usuarios < Tentativas_maximas:
+#     print(f'Tentativa {Tentativas_usuarios} de {Tentativas_maximas}')
+#     dica = Key[:Tentativas_usuarios]
+#     print(f'Segue a dica do login: {dica}')
+#     chance_user = input('Digite o nome do usuario para entrar: ')
+#     if chance_user == Key:
+#         print('Conexao bem sucedida')
+#         break
+#     Tentativas_usuarios += 1
     
-else:
-    print(f'Falha na conexao')    
+# else:
+#     print(f'Falha na conexao')    
 
 
 
